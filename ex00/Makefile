@@ -1,4 +1,4 @@
-NAME = harlFilter
+NAME = Fixed
 
 CXX = c++
 

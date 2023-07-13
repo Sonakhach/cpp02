@@ -23,13 +23,13 @@ int Fixed::getRawBits( void ) const
 Fixed::Fixed(const Fixed &t)
 {
 
-  this->m_a = t.getRawBits();
    std::cout << "this is Copy constructor" << std::endl;
+  this->m_a = t.getRawBits();
 }
 
 Fixed& Fixed::operator=(const Fixed&t)
 {
-    this->m_a = t.getRawBits();
     std::cout << "this is copy  assignment operator" << std::endl;
+    this->m_a = t.getRawBits();
     return (*this);
 }

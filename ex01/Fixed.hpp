@@ -7,11 +7,11 @@ class Fixed
 {
     public:
         Fixed();
-        ~Fixed();
         Fixed(const int num) ;
         Fixed(const float num) ;
         Fixed(const Fixed &t);
         Fixed& operator=(const Fixed& t);
+        ~Fixed();
         int getRawBits( void ) const;
         void setRawBits( int const raw );
         float toFloat( void ) const;
